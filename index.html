@@ -23,16 +23,8 @@
             <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
                 <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-white/20 md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
                     <div class="flex items-center justify-start w-1/4 h-full pr-4">
-                        <a href="/" class="flex items-center py-4 space-x-2 font-extrabold text-gray-900 md:py-0">
-                            <span class="flex items-center justify-center w-8 h-8 text-white bg-gray-900 rounded-full">
-                                <svg class="w-auto h-5 -translate-y-px" viewBox="0 0 69 66" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="m31.2 12.2-3.9 12.3-13.4.5-13.4.5 10.7 7.7L21.8 41l-3.9 12.1c-2.2 6.7-3.8 12.4-3.6 12.5.2.2 5-3 10.6-7.1 5.7-4.1 10.9-7.2 11.5-6.8.6.4 5.3 3.8 10.5 7.5 5.2 3.8 9.6 6.6 9.8 6.4.2-.2-1.4-5.8-3.6-12.5l-3.9-12.2 8.5-6.2c14.7-10.6 14.8-9.6-.4-9.7H44.2L40 12.5C37.7 5.6 35.7 0 35.5 0c-.3 0-2.2 5.5-4.3 12.2Z"
-                                        fill="currentColor" />
-                                </svg>
-                            </span>
-                            <span>LOGO</span>
+                        <a href="/" class="flex items-center py-4 space-x-2 md:py-0">
+                            <img src="./public/img/j-and-c-group-logo-cropped.svg" alt="J&C Group Logo" class="h-16 text-gray-900 invert">
                         </a>
                     </div>
                     <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex"
@@ -232,7 +224,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="./public/img/toolboxes.jpg" alt="" class="w-full">
+                            <img src="./public/img/toolboxes.jpg" alt="tools on concrete slab" class="w-full">
                             <!-- Photo by Anete Lusina: https://www.pexels.com/photo/toolboxes-placed-near-wooden-door-4792489/ -->
                         </div>
                     </div>
@@ -249,110 +241,64 @@
         <!-- Services -->
         <section class="py-20 bg-white">
             <div class="container max-w-6xl mx-auto">
-                <h2 class="text-4xl font-bold tracking-tight text-center">Our Services</h2>
-                <p class="mt-2 text-lg text-center text-gray-600">Check out our list of awesome services below.</p>
+                <div class="sm:px-8 xl:px-0">
+                    <h2 class="text-4xl text-gray-900 leading-snug oswald">Our Services</h2>
+                    <p class="mt-2 text-gray-600">Check out our list of awesome services below.</p>
+                </div>
+
                 <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
-
                     <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
-                                <circle cx="6" cy="14" r="3" />
-                                <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
-                            </svg>
+                        <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
+                            <img src="public/img/repair.png" alt="repair service icon" class="w-14 h-14" />
+                            <!-- Repair icons created by Freepik - Flaticon: https://www.flaticon.com/free-icons/repair -->
                         </div>
-                        <h4 class="text-xl font-medium text-gray-900">Certifications</h4>
-                        <p class="text-base text-center text-gray-500">Each of our plan will provide you and your team with certifications.</p>
+                        <h4 class="text-xl font-medium text-gray-900">Quality Repairs</h4>
+                        <p class="text-base text-center text-gray-500">We deliver reliable, long-lasting repairs using top-tier materials and advanced techniques to ensure the highest standard of quality.</p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M18 8a3 3 0 0 1 0 6" />
-                                <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
-                                <path
-                                    d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
-                            </svg>
+                        <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
+                            <img src="public/img/emergency.png" alt="emergency service icon" class="w-14 h-14" />
+                            <!-- Emergency icons created by Freepik - Flaticon: https://www.flaticon.com/free-icons/emergency -->
                         </div>
-                        <h4 class="text-xl font-medium text-gray-900">Notifications</h4>
-                        <p class="text-base text-center text-gray-500">Send out notifications to all your customers to keep them engaged.</p>
+                        <h4 class="text-xl font-medium text-gray-900">Emergency Response</h4>
+                        <p class="text-base text-center text-gray-500">Available 24/7, we provide rapid emergency services to minimize damage and offer swift solutions when you need them most.</p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-                                <line x1="12" y1="12" x2="20" y2="7.5" />
-                                <line x1="12" y1="12" x2="12" y2="21" />
-                                <line x1="12" y1="12" x2="4" y2="7.5" />
-                                <line x1="16" y1="5.25" x2="8" y2="9.75" />
-                            </svg>
+                        <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
+                            <img src="public/img/inspection.png" alt="inspection service icon" class="w-14 h-14" />
+                            <!-- Inspection icons created by Freepik - Flaticon: https://www.flaticon.com/free-icons/inspection -->
                         </div>
-                        <h4 class="text-xl font-medium text-gray-900">Bundles</h4>
-                        <p class="text-base text-center text-gray-500">High-quality bundles of awesome tools to help you out.
-                        </p>
+                        <h4 class="text-xl font-medium text-gray-900">Thorough Inspection</h4>
+                        <p class="text-base text-center text-gray-500">Our detailed inspections identify all issues and provide clear, accurate reports, helping you navigate the claims process with ease.</p>
                     </div>
 
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                       >
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M8 9l3 3l-3 3" />
-                                <line x1="13" y1="15" x2="16" y2="15" />
-                                <rect x="3" y="4" width="18" height="16" rx="2" />
-                            </svg>
+                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                        <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
+                            <img src="public/img/communication.png" alt="communication service icon" class="w-14 h-14" />
+                            <!-- Communication icons created by Made by Made Premium - Flaticon: https://www.flaticon.com/free-icons/communication -->
                         </div>
-                        <h4 class="text-xl font-medium text-gray-900">Developer Tools</h4>
-                        <p class="text-base text-center text-gray-500">Developer tools to help grow your application and keep it
-                            up-to-date.</p>
+                        <h4 class="text-xl font-medium text-gray-900">Transparent Communication</h4>
+                        <p class="text-base text-center text-gray-500">We keep you informed every step of the way with clear updates and open communication throughout the repair process.</p>
                     </div>
 
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                       >
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                <path
-                                    d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                            </svg>
+                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                        <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
+                            <img src="public/img/paint-roller.png" alt="renovations service icon" class="w-14 h-14" />
+                            <!-- Renovation icons created by Peerapak Takpho - Flaticon: https://www.flaticon.com/free-icons/renovation -->
                         </div>
-                        <h4 class="text-xl font-medium text-gray-900">Building Blocks</h4>
-                        <p class="text-base text-center text-gray-500">The right kind of building blocks to take your company to
-                            the next level.</p>
+                        <h4 class="text-xl font-medium text-gray-900">Renovations</h4>
+                        <p class="text-base text-center text-gray-500">Expert renovations to transform your space with high-quality craftsmanship and attention to detail, turning your vision into reality.</p>
                     </div>
 
-                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl"
-                       >
-                        <div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500"
-                            data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <line x1="15" y1="5" x2="15" y2="7" />
-                                <line x1="15" y1="11" x2="15" y2="13" />
-                                <line x1="15" y1="17" x2="15" y2="19" />
-                                <path
-                                    d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                            </svg>
+                    <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                        <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
+                            <img src="public/img/water-tank.png" alt="water-tank service icon" class="w-14 h-14" />
+                            <!-- Water tank icons created by dwiangga.icon - Flaticon: https://www.flaticon.com/free-icons/water-tank -->
                         </div>
-                        <h4 class="text-xl font-medium text-gray-900">Coupons</h4>
-                        <p class="text-base text-center text-gray-500">Coupons system to provide special offers and discounts
-                            for your app.</p>
+                        <h4 class="text-xl font-medium text-gray-900">JoJo Tank Installation</h4>
+                        <p class="text-base text-center text-gray-500">Professional water tank installations, ensuring safe, efficient setups tailored to your needs.</p>
                     </div>
 
                 </div>
@@ -383,7 +329,7 @@
                             class="flex flex-col gap-8 w-full mx-auto overflow-hidden">
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
-                                    <span>How do I implement into my project?</span>
+                                    <span>How often should I service my plumbing system?</span>
                                     <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -392,13 +338,13 @@
                                 </button>
                                 <div x-show="activeAccordion==id" x-collapse x-cloak>
                                     <div class="p-6 pt-0">
-                                        Implementation in your project is very simple. You can use the exported page as a starting point, or you can copy and paste the HTML into your own page.
+                                        Regular plumbing maintenance is recommended every 1-2 years to avoid costly repairs and ensure your system runs smoothly.
                                     </div>
                                 </div>
                             </div>
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
-                                    <span>What is the license on the pages?</span>
+                                    <span>What is the best type of water tank for my home?</span>
                                     <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -407,13 +353,13 @@
                                 </button>
                                 <div x-show="activeAccordion==id" x-collapse x-cloak>
                                     <div class="p-6 pt-0">
-                                        You have unlimited use to the templates used in Tails; however, you cannot re-use the templates to sell for others to use.
+                                        The ideal water tank depends on your needs, but plastic tanks are popular due to their durability and affordability.
                                     </div>
                                 </div>
                             </div>
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
-                                    <span>Can I cancel my account if I not longer need it?</span>
+                                    <span>How can I prevent clogged drains?</span>
                                     <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -422,13 +368,13 @@
                                 </button>
                                 <div x-show="activeAccordion==id" x-collapse x-cloak>
                                     <div class="p-6 pt-0">
-                                        Of course, you can feel free to cancel your account at anytime, and you can feel free to come back and upgrade again whenever you're ready.
+                                        Avoid pouring grease or food scraps down the drain, and use drain covers to catch debris. Regular cleaning also helps.
                                     </div>
                                 </div>
                             </div>
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
-                                    <span>What if I need help with my project?</span>
+                                    <span>What are the signs that my pipes need replacing?</span>
                                     <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
                                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -437,7 +383,7 @@
                                 </button>
                                 <div x-show="activeAccordion==id" x-collapse x-cloak>
                                     <div class="p-6 pt-0">
-                                        If you need assistance implementing the templates into your project you can contact support or you can visit our <a href="https://devdojo.com/questions" class="text-gray-900 underline" data-primary="indigo-500">question section</a>.
+                                        Common signs include leaks, low water pressure, discolored water, or frequent blockages.
                                     </div>
                                 </div>
                             </div>
@@ -524,14 +470,7 @@
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-10">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="/" class="flex items-center py-4 space-x-2 font-extrabold text-white md:py-0">
-                    <span class="flex items-center justify-center w-8 h-8 bg-white text-gray-900 rounded-full">
-                        <svg class="w-auto h-5 -translate-y-px" viewBox="0 0 69 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="m31.2 12.2-3.9 12.3-13.4.5-13.4.5 10.7 7.7L21.8 41l-3.9 12.1c-2.2 6.7-3.8 12.4-3.6 12.5.2.2 5-3 10.6-7.1 5.7-4.1 10.9-7.2 11.5-6.8.6.4 5.3 3.8 10.5 7.5 5.2 3.8 9.6 6.6 9.8 6.4.2-.2-1.4-5.8-3.6-12.5l-3.9-12.2 8.5-6.2c14.7-10.6 14.8-9.6-.4-9.7H44.2L40 12.5C37.7 5.6 35.7 0 35.5 0c-.3 0-2.2 5.5-4.3 12.2Z"
-                                fill="currentColor" />
-                        </svg>
-                    </span>
-                    <span>LOGO</span>
+                    <img src="./public/img/j-and-c-group-logo-cropped.svg" alt="J&C Group Logo" class="h-8 text-gray-900 invert">
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>

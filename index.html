@@ -24,19 +24,16 @@
                 <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-white/20 md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
                     <div class="flex items-center justify-start w-1/4 h-full pr-4">
                         <a href="/" class="flex items-center py-4 space-x-2 md:py-0">
-                            <img src="./public/img/j-and-c-group-logo-cropped.svg" alt="J&C Group Logo" class="h-16 text-gray-900 invert">
+                            <img src="./public/img/j-and-c-group-logo-cropped.svg" alt="J&C Group Logo" class="h-16 text-gray-900 invert" />
                         </a>
                     </div>
                     <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex"
                         :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
                         <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
                             <a href="#_" class="inline-flex items-center block w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 md:hidden">
-                                <svg class="w-auto h-5" viewBox="0 0 355 99" xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <svg class="w-auto h-5" viewBox="0 0 355 99" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                     <defs>
-                                        <path
-                                            d="M119.1 87V66.4h19.8c34.3 0 34.2-49.5 0-49.5-11 0-22 .1-33 .1v70h13.2zm19.8-32.7h-19.8V29.5h19.8c16.8 0 16.9 24.8 0 24.8zm32.6-30.5c0 9.5 14.4 9.5 14.4 0s-14.4-9.5-14.4 0zM184.8 87V37.5h-12.2V87h12.2zm22.8 0V61.8c0-7.5 5.1-13.8 12.6-13.8 7.8 0 11.9 5.7 11.9 13.2V87h12.2V61.1c0-15.5-9.3-24.2-20.9-24.2-6.2 0-11.2 2.5-16.2 7.4l-.8-6.7h-10.9V87h12.1zm72.1 1.3c7.5 0 16-2.6 21.2-8l-7.8-7.7c-2.8 2.9-8.7 4.6-13.2 4.6-8.6 0-13.9-4.4-14.7-10.5h38.5c1.9-20.3-8.4-30.5-24.9-30.5-16 0-26.2 10.8-26.2 25.8 0 15.8 10.1 26.3 27.1 26.3zM292 56.6h-26.6c1.8-6.4 7.2-9.6 13.8-9.6 7 0 12 3.2 12.8 9.6zm41.2 32.1c14.1 0 21.2-7.5 21.2-16.2 0-13.1-11.8-15.2-21.1-15.8-6.3-.4-9.2-2.2-9.2-5.4 0-3.1 3.2-4.9 9-4.9 4.7 0 8.7 1.1 12.2 4.4l6.8-8c-5.7-5-11.5-6.5-19.2-6.5-9 0-20.8 4-20.8 15.4 0 11.2 11.1 14.6 20.4 15.3 7 .4 9.8 1.8 9.8 5.2 0 3.6-4.3 6-8.9 5.9-5.5-.1-13.5-3-17-6.9l-6 8.7c7.2 7.5 15 8.8 22.8 8.8z"
-                                            id="a"></path>
+                                        <path d="M119.1 87V66.4h19.8c34.3 0 34.2-49.5 0-49.5-11 0-22 .1-33 .1v70h13.2zm19.8-32.7h-19.8V29.5h19.8c16.8 0 16.9 24.8 0 24.8zm32.6-30.5c0 9.5 14.4 9.5 14.4 0s-14.4-9.5-14.4 0zM184.8 87V37.5h-12.2V87h12.2zm22.8 0V61.8c0-7.5 5.1-13.8 12.6-13.8 7.8 0 11.9 5.7 11.9 13.2V87h12.2V61.1c0-15.5-9.3-24.2-20.9-24.2-6.2 0-11.2 2.5-16.2 7.4l-.8-6.7h-10.9V87h12.1zm72.1 1.3c7.5 0 16-2.6 21.2-8l-7.8-7.7c-2.8 2.9-8.7 4.6-13.2 4.6-8.6 0-13.9-4.4-14.7-10.5h38.5c1.9-20.3-8.4-30.5-24.9-30.5-16 0-26.2 10.8-26.2 25.8 0 15.8 10.1 26.3 27.1 26.3zM292 56.6h-26.6c1.8-6.4 7.2-9.6 13.8-9.6 7 0 12 3.2 12.8 9.6zm41.2 32.1c14.1 0 21.2-7.5 21.2-16.2 0-13.1-11.8-15.2-21.1-15.8-6.3-.4-9.2-2.2-9.2-5.4 0-3.1 3.2-4.9 9-4.9 4.7 0 8.7 1.1 12.2 4.4l6.8-8c-5.7-5-11.5-6.5-19.2-6.5-9 0-20.8 4-20.8 15.4 0 11.2 11.1 14.6 20.4 15.3 7 .4 9.8 1.8 9.8 5.2 0 3.6-4.3 6-8.9 5.9-5.5-.1-13.5-3-17-6.9l-6 8.7c7.2 7.5 15 8.8 22.8 8.8z" id="a"></path>
                                     </defs>
                                     <g fill="none" fill-rule="evenodd">
                                         <g fill="currentColor">
@@ -61,9 +58,7 @@
                                     <div class="flex flex-row items-center gap-2">
                                         <div class="shrink text-gray-900 sm:text-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="size-6 fill-current" fill="none" viewBox="0 0 256 256">
-                                                <path
-                                                    d="M231.88,175.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.26,56.26,0,0,1,80.92,24.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Z">
-                                                </path>
+                                                <path d="M231.88,175.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.26,56.26,0,0,1,80.92,24.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Z"></path>
                                             </svg>
                                         </div>
                                         <div class="grow">
@@ -77,14 +72,11 @@
                     </div>
                     <!-- Mobile menu toggle -->
                     <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 bg-white rounded-full cursor-pointer md:hidden hover:bg-gray-100">
-                        <svg class="w-6 h-6 text-gray-900" x-show="!showMenu" fill="none" stroke-linecap="round"
-                            stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg class="w-6 h-6 text-gray-900" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                             <path d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
-                        <svg class="w-6 h-6 text-gray-900" x-show="showMenu" fill="none" stroke="currentColor"
-                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
-                            </path>
+                        <svg class="w-6 h-6 text-gray-900" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
                         </svg>
                     </div>
                 </div>
@@ -97,12 +89,11 @@
                             Your trusted <br class="hidden sm:block"> plumbing solutions
                         </h1>
                         <div class="mt-5 md:mt-8 lg:mt-12 text-white md:max-w-lg md:text-xl">
-                            We have tackled a wide range of projects, from small repairs to extensive renovations, earning the trust and
-                            satisfaction of countless clients along the way.
+                            We have tackled a wide range of projects, from small repairs to extensive renovations, earning the trust and satisfaction of countless clients along the way.
                         </div>
                         <div class="flex flex-col items-start justify-start mt-8 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
                             <span class="relative inline-flex w-full md:w-auto">
-                                <a href="/contact" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-white bg-gray-900 border border-transparent rounded-full xl:px-10 md:w-auto hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
+                                <a href="/contact.html" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-white bg-gray-900 border border-transparent rounded-full xl:px-10 md:w-auto hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
                                     Get in touch
                                 </a>
                             </span>
@@ -110,7 +101,7 @@
                     </div>
                     <div class="col-span-1">
                         <div class="rounded-xl overflow-hidden">
-                            <img src="./public/img/man-inspecting-ceiling.webp" alt="" srcset="" class="w-full">
+                            <img src="./public/img/man-inspecting-ceiling.webp" alt="man inspection ceiling" class="w-full" />
                         </div>
                     </div>
                 </div>
@@ -190,16 +181,14 @@
                         </div>
                     </div>
                     <div class="col-span-4 lg:col-span-6 space-y-8 overflow-hidden">
-                        <img src="./public/img/person-inspecting.jpg" alt="" class="w-full rounded-xl">
+                        <img src="./public/img/person-inspecting.jpg" alt="person inspecting equipment" class="w-full rounded-xl" />
                     </div>
                 </div>
             </div>
         </section>
 
         <div style="height: 100px; opacity: .4; position: relative; width: 100%;">
-            <div
-                style="position: absolute; border-radius: inherit; top: 0; right: 0; bottom: 0; left: 0; background-repeat: repeat;background-position:left top; background-size:48.00px auto; background-image: url(./public/img/square-dots.svg); border: 0">
-            </div>
+            <div style="position: absolute; border-radius: inherit; top: 0; right: 0; bottom: 0; left: 0; background-repeat: repeat;background-position:left top; background-size:48.00px auto; background-image: url(./public/img/square-dots.svg); border: 0"></div>
         </div>
 
         <!-- CTA -->
@@ -214,9 +203,7 @@
                             <div class="relative inline-flex w-full md:w-auto mt-6">
                                 <a href="tel:+27820702181" class="inline-flex items-center justify-center w-full px-6 py-4 text-base font-medium leading-6 bg-white text-gray-900 border border-transparent rounded-lg xl:px-10 md:w-auto hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 256 256" stroke-width="1.5" stroke="currentColor" class="size-6 fill-current mr-4">
-                                        <path
-                                            d="M144.27,45.93a8,8,0,0,1,9.8-5.66,86.22,86.22,0,0,1,61.66,61.66,8,8,0,0,1-5.66,9.8A8.23,8.23,0,0,1,208,112a8,8,0,0,1-7.73-5.94,70.35,70.35,0,0,0-50.33-50.33A8,8,0,0,1,144.27,45.93Zm-2.33,41.8c13.79,3.68,22.65,12.54,26.33,26.33A8,8,0,0,0,176,120a8.23,8.23,0,0,0,2.07-.27,8,8,0,0,0,5.66-9.8c-5.12-19.16-18.5-32.54-37.66-37.66a8,8,0,1,0-4.13,15.46Zm81.94,95.35A56.26,56.26,0,0,1,168,232C88.6,232,24,167.4,24,88A56.26,56.26,0,0,1,72.92,32.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,109.39,104c-.18.27-.37.52-.57.77L88,129.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,223.88,183.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a8.44,8.44,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L96,95.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,40,88,128.14,128.14,0,0,0,168,216,40.21,40.21,0,0,0,208,181.07Z">
-                                        </path>
+                                        <path d="M144.27,45.93a8,8,0,0,1,9.8-5.66,86.22,86.22,0,0,1,61.66,61.66,8,8,0,0,1-5.66,9.8A8.23,8.23,0,0,1,208,112a8,8,0,0,1-7.73-5.94,70.35,70.35,0,0,0-50.33-50.33A8,8,0,0,1,144.27,45.93Zm-2.33,41.8c13.79,3.68,22.65,12.54,26.33,26.33A8,8,0,0,0,176,120a8.23,8.23,0,0,0,2.07-.27,8,8,0,0,0,5.66-9.8c-5.12-19.16-18.5-32.54-37.66-37.66a8,8,0,1,0-4.13,15.46Zm81.94,95.35A56.26,56.26,0,0,1,168,232C88.6,232,24,167.4,24,88A56.26,56.26,0,0,1,72.92,32.12a16,16,0,0,1,16.62,9.52l21.12,47.15,0,.12A16,16,0,0,1,109.39,104c-.18.27-.37.52-.57.77L88,129.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,223.88,183.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a8.44,8.44,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L96,95.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,40,88,128.14,128.14,0,0,0,168,216,40.21,40.21,0,0,0,208,181.07Z"></path>
                                     </svg>
 
                                     (+27) 82 070 2181
@@ -224,7 +211,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="./public/img/toolboxes.jpg" alt="tools on concrete slab" class="w-full">
+                            <img src="./public/img/toolboxes.jpg" alt="tools on concrete slab" class="w-full" />
                             <!-- Photo by Anete Lusina: https://www.pexels.com/photo/toolboxes-placed-near-wooden-door-4792489/ -->
                         </div>
                     </div>
@@ -233,9 +220,7 @@
         </section>
 
         <div style="height: 100px; opacity: .4; position: relative; width: 100%;">
-            <div
-                style="position: absolute; border-radius: inherit; top: 0; right: 0; bottom: 0; left: 0; background-repeat: repeat;background-position:left top; background-size:48.00px auto; background-image: url(./public/img/square-dots.svg); border: 0">
-            </div>
+            <div style="position: absolute; border-radius: inherit; top: 0; right: 0; bottom: 0; left: 0; background-repeat: repeat;background-position:left top; background-size:48.00px auto; background-image: url(./public/img/square-dots.svg); border: 0"></div>
         </div>
 
         <!-- Services -->
@@ -249,7 +234,7 @@
                 <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
                     <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
                         <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
-                            <img src="public/img/repair.png" alt="repair service icon" class="w-14 h-14" />
+                            <img src="./public/img/repair.png" alt="repair service icon" class="w-14 h-14" />
                             <!-- Repair icons created by Freepik - Flaticon: https://www.flaticon.com/free-icons/repair -->
                         </div>
                         <h4 class="text-xl font-medium text-gray-900">Quality Repairs</h4>
@@ -258,7 +243,7 @@
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                         <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
-                            <img src="public/img/emergency.png" alt="emergency service icon" class="w-14 h-14" />
+                            <img src="./public/img/emergency.png" alt="emergency service icon" class="w-14 h-14" />
                             <!-- Emergency icons created by Freepik - Flaticon: https://www.flaticon.com/free-icons/emergency -->
                         </div>
                         <h4 class="text-xl font-medium text-gray-900">Emergency Response</h4>
@@ -267,7 +252,7 @@
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                         <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
-                            <img src="public/img/inspection.png" alt="inspection service icon" class="w-14 h-14" />
+                            <img src="./public/img/inspection.png" alt="inspection service icon" class="w-14 h-14" />
                             <!-- Inspection icons created by Freepik - Flaticon: https://www.flaticon.com/free-icons/inspection -->
                         </div>
                         <h4 class="text-xl font-medium text-gray-900">Thorough Inspection</h4>
@@ -276,7 +261,7 @@
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                         <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
-                            <img src="public/img/communication.png" alt="communication service icon" class="w-14 h-14" />
+                            <img src="./public/img/communication.png" alt="communication service icon" class="w-14 h-14" />
                             <!-- Communication icons created by Made by Made Premium - Flaticon: https://www.flaticon.com/free-icons/communication -->
                         </div>
                         <h4 class="text-xl font-medium text-gray-900">Transparent Communication</h4>
@@ -285,7 +270,7 @@
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                         <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
-                            <img src="public/img/paint-roller.png" alt="renovations service icon" class="w-14 h-14" />
+                            <img src="./public/img/paint-roller.png" alt="renovations service icon" class="w-14 h-14" />
                             <!-- Renovation icons created by Peerapak Takpho - Flaticon: https://www.flaticon.com/free-icons/renovation -->
                         </div>
                         <h4 class="text-xl font-medium text-gray-900">Renovations</h4>
@@ -294,7 +279,7 @@
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
                         <div class="p-3 text-white bg-[#ff7a35] rounded-full" data-primary="bg-[#ff7a35]" data-rounded="rounded-full">
-                            <img src="public/img/water-tank.png" alt="water-tank service icon" class="w-14 h-14" />
+                            <img src="./public/img/water-tank.png" alt="water-tank service icon" class="w-14 h-14" />
                             <!-- Water tank icons created by dwiangga.icon - Flaticon: https://www.flaticon.com/free-icons/water-tank -->
                         </div>
                         <h4 class="text-xl font-medium text-gray-900">JoJo Tank Installation</h4>
@@ -313,8 +298,7 @@
                         <h2 class="mb-4 text-xl font-medium text-gray-900 md:text-4xl">Your questions, answered</h2>
                         <p class="mt-6">Answers to the most common questions our customers have. If you don&apos;t find the information you&apos;re looking for, feel free to contact us.</p>
                         <div class="relative inline-flex w-full md:w-auto mt-6">
-                            <a href="tel:+27820702181"
-                                class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-white bg-gray-900 border border-transparent rounded-lg xl:px-10 md:w-auto hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
+                            <a href="tel:+27820702181" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-white bg-gray-900 border border-transparent rounded-lg xl:px-10 md:w-auto hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
                                 Contact us
                             </a>
                         </div>
@@ -330,9 +314,7 @@
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
                                     <span>How often should I service my plumbing system?</span>
-                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </button>
@@ -345,9 +327,7 @@
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
                                     <span>What is the best type of water tank for my home?</span>
-                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </button>
@@ -360,9 +340,7 @@
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
                                     <span>How can I prevent clogged drains?</span>
-                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </button>
@@ -375,9 +353,7 @@
                             <div x-data="{ id: $id('accordion') }" class="cursor-pointer group border-2 border-gray-200 rounded-xl">
                                 <button @click="setActiveAccordion(id)" class="flex items-center justify-between w-full p-6 text-left select-none group-hover:underline text-lg font-semibold text-gray-900">
                                     <span>What are the signs that my pipes need replacing?</span>
-                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }"
-                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <svg class="w-4 h-4 duration-200 ease-out" :class="{ 'rotate-180': activeAccordion==id }" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <polyline points="6 9 12 15 18 9"></polyline>
                                     </svg>
                                 </button>
@@ -399,66 +375,48 @@
         <ul class="marquee">
             <li>
                 <div class="flex flex-row gap-12 items-center text-gray-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256"
-                        class="size-10 fill-current">
-                        <path
-                            d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256" class="size-10 fill-current">
+                        <path d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z"></path>
                     </svg>
                     <a class="font-bold text-4xl text-nowrap" href="tel:+123456789" rel="noopener">CALL US TODAY</a>
                 </div>
             </li>
             <li>
                 <div class="flex flex-row gap-12 items-center text-gray-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256"
-                        class="size-10 fill-current">
-                        <path
-                            d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256" class="size-10 fill-current">
+                        <path d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z"></path>
                     </svg>
                     <a class="font-bold text-4xl text-nowrap" href="tel:+123456789" rel="noopener">CALL US TODAY</a>
                 </div>
             </li>
             <li>
                 <div class="flex flex-row gap-12 items-center text-gray-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256"
-                        class="size-10 fill-current">
-                        <path
-                            d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256" class="size-10 fill-current">
+                        <path d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z"></path>
                     </svg>
                     <a class="font-bold text-4xl text-nowrap" href="tel:+123456789" rel="noopener">CALL US TODAY</a>
                 </div>
             </li>
             <li>
                 <div class="flex flex-row gap-12 items-center text-gray-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256"
-                        class="size-10 fill-current">
-                        <path
-                            d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256" class="size-10 fill-current">
+                        <path d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z"></path>
                     </svg>
                     <a class="font-bold text-4xl text-nowrap" href="tel:+123456789" rel="noopener">CALL US TODAY</a>
                 </div>
             </li>
             <li>
                 <div class="flex flex-row gap-12 items-center text-gray-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256"
-                        class="size-10 fill-current">
-                        <path
-                            d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256" class="size-10 fill-current">
+                        <path d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z"></path>
                     </svg>
                     <a class="font-bold text-4xl text-nowrap" href="tel:+123456789" rel="noopener">CALL US TODAY</a>
                 </div>
             </li>
             <li>
                 <div class="flex flex-row gap-12 items-center text-gray-900">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256"
-                        class="size-10 fill-current">
-                        <path
-                            d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z">
-                        </path>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 256 256" class="size-10 fill-current">
+                        <path d="M174,47.75a254.19,254.19,0,0,0-41.45-38.3,8,8,0,0,0-9.18,0A254.19,254.19,0,0,0,82,47.75C54.51,79.32,40,112.6,40,144a88,88,0,0,0,176,0C216,112.6,201.49,79.32,174,47.75Z"></path>
                     </svg>
                     <a class="font-bold text-4xl text-nowrap" href="tel:+123456789" rel="noopener">CALL US TODAY</a>
                 </div>
@@ -470,23 +428,20 @@
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-10">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="/" class="flex items-center py-4 space-x-2 font-extrabold text-white md:py-0">
-                    <img src="./public/img/j-and-c-group-logo-cropped.svg" alt="J&C Group Logo" class="h-8 text-gray-900 invert">
+                    <img src="./public/img/j-and-c-group-logo-cropped.svg" alt="J&C Group Logo" class="h-8 text-gray-900 invert" />
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Home</a>
+                        <a href="/" class="hover:underline me-4 md:me-6">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                        <a href="/about.html" class="hover:underline me-4 md:me-6">About</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Services</a>
+                        <a href="/services.html" class="hover:underline me-4 md:me-6">Services</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="hover:underline">Contact</a>
+                        <a href="/contact.html" class="hover:underline">Contact</a>
                     </li>
                 </ul>
             </div>

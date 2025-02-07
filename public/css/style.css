@@ -7,6 +7,11 @@ body {
     font-style: normal;
 }
 
+::selection {
+    background-color: #ffce51;
+    color: #1a1a1a;
+}
+
 [x-cloak] {
     display: none
 }
